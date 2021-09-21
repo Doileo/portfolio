@@ -86,6 +86,83 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+  background: #8C274C;
+  color: #F2F0F0;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  color: #F2F0F0;
+  font-family: 'Lora', serif;
+  font-size: 2.5em;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.highlight {
+  color: #51E0AC;
+}
+
+h2 {
+  color: #F2F0F0;
+  font-family: 'Lora', serif;
+  font-size: 1.75em;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+p {
+  color: #F2F0F0;
+  font-size: 1em;
+  line-height: 1.285;
+}
+
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+.content-wrapper {
+  width: 100%;
+}
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background:#8C274C;
+  margin: 0;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
 
 /* ==========================================================================
    Helper classes
