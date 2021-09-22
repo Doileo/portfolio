@@ -355,7 +355,7 @@ h3 {
 .project-description {
   width: 100%;
   text-align: left;
-  line-height: 1.5em;
+  line-height: 1.5rem;
   margin: 0 0 30px 0;
 }
 
@@ -374,6 +374,134 @@ span {
   border: none;
   margin: 40px 0 60px 0;
 }
+
+/*  --------------------- about ------------------------  */
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  padding: 50px 10vw;
+}
+
+.about .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.heading {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.75rem;
+  text-transform: capitalize;
+  padding-top: 60px;
+}
+
+.sub-heading {
+  text-align: center;
+  font-size: 1rem;
+  margin: 10px;
+  opacity: 0.7;
+}
+
+.about-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+
+.about-paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 30px;
+}
+
+.about-paragraph p {
+  line-height: 1.5;
+  margin: 0;
+}
+
+.about figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 0;
+  width: 100%;
+}
+
+.about-image {
+  margin: 20px 30px;
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  padding: 20px 10vw;
+}
+
+.skills .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.skill-heading {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.75rem;
+  text-transform: capitalize;
+  padding-top: 20px;
+}
+
+.skill-container {
+  position: relative;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+.skill-card {
+  height: 200px;
+  border-radius: 10px;
+  border: 1px solid #F7B0CF;
+  text-align: center;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.skill {
+  font-size: 1.25rem;
+  color:#F7B0CF;
+  line-height: 200px;
+}
+
+.skill-container {
+  grid-template-columns: 1fr;
+}
+
+.skill-card:hover {
+  background: var(--background);
+}
+
+.skill-card:hover .skill {
+  color: #F2F0F0;
+}
+
 
 
 
