@@ -143,6 +143,11 @@ h4 {
   font-size: 1.25rem;
 }
 
+h3,
+h4 {
+  font-family: 'Lora', serif;
+}
+
 p {
   color: #F2F0F0;
   font-size: 1rem;
@@ -226,7 +231,7 @@ footer {
   background: #F2F0F0;
 }
 
-/* home section */
+/* ------------------------ Main Section ---------------------------------- */
 
 .home {
   width: 100%;
@@ -237,7 +242,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: column-reverse;
   position: relative;
 }
 
@@ -296,6 +301,87 @@ footer {
   border-radius: 10px;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
 }
+
+/*  -------------------- portfolio --------------------------  */
+#project-section {
+  text-align: center;
+}
+.portfolio {
+  padding: 50px 10vw;
+}
+
+.portfolio .project-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: row wrap;
+}
+
+.heading {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.75rem;
+  text-transform: capitalize;
+  padding-top: 60px;
+}
+
+.seperator {
+  width: 25%;
+  margin: 20px auto;
+  position: relative;
+}
+
+.project-piece {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.project-piece figure {
+  width: 100%;
+  margin: 20px 0 40px 0;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+h3 {
+  text-align: center;
+  margin: 0 0 40px 0;
+}
+
+.project-description {
+  width: 100%;
+  text-align: left;
+  line-height: 1.5em;
+  margin: 0 0 30px 0;
+}
+
+span {
+  font-weight: bold;
+  text-align: left;
+}
+
+.project-link {
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 50px;
+  background:#51E0AC;
+  color:#8C274C;
+  text-transform: capitalize;
+  border: none;
+  margin: 40px 0 60px 0;
+}
+
+
+
+
+
+
+
+
 
 
 
