@@ -191,7 +191,7 @@ footer {
 .links-container {
   position: absolute;
   top: 60px;
-  background:#000;
+  background:#8C274C;
   width: 100%;
   left: 0;
   padding: 0 10vw;
@@ -207,6 +207,7 @@ footer {
 }
 
 .link {
+  color:#F2F0F0;
   margin-left: auto;
   text-align: center;
   display: block;
@@ -328,6 +329,7 @@ footer {
   color:#8C274C;
   text-transform: capitalize;
   border: none;
+  font-weight: bold;
 }
 
 .home-image {
@@ -406,6 +408,7 @@ span {
   text-transform: capitalize;
   border: none;
   margin: 40px 0 60px 0;
+  font-weight: bold;
 }
 
 /*  --------------------- about ------------------------  */
@@ -581,7 +584,7 @@ footer p {
   .links-container {
     position: absolute;
     top: 60px;
-    background:#000;
+    background:#8C274C;
     width: 100%;
     left: 0;
     padding: 0 10vw;
@@ -699,6 +702,10 @@ footer p {
     font-size: 1.5rem;
   }
 }
+
+@media only screen and (min-width: 1200px) {
+  /* desktop styles here */
+
 
 
 
