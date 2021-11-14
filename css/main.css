@@ -504,6 +504,12 @@ footer p {
   line-height: 1.5;
 }
 
+footer p a {
+  line-height: 1.5;
+  font-size: 1rem;
+  text-transform: lowercase;
+}
+
 /* styles for the header */
 
 @media only screen and (max-width: 996px) {
