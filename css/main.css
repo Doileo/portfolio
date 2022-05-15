@@ -361,7 +361,8 @@ span {
 }
 
 /*  --------------------- about ------------------------  */
-.about {
+.about,
+.skills {
   height: auto;
   padding: 50px 10vw;
   width: 100%;
