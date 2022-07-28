@@ -266,6 +266,10 @@ footer {
   font-weight: bold;
 }
 
+.btn:hover {
+  background: #a7efd5;
+}
+
 /*  -------------------- portfolio --------------------------  */
 #project-section {
   text-align: center;
@@ -358,6 +362,10 @@ span {
   border: none;
   margin: 40px 0 60px 0;
   font-weight: bold;
+}
+
+.project-link:hover {
+  background: #a7efd5;
 }
 
 /*  --------------------- about ------------------------  */
