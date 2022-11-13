@@ -19,3 +19,8 @@ toggleBtn.addEventListener('click', () => {
     toggleBtn.classList.toggle('active');
     linkContainer.classList.toggle('show');
 })
+
+// Code for the copyright footer
+
+const year = document.querySelector('#current-year')
+year.innerHTML = new Date().getFullYear()
